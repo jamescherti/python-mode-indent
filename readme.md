@@ -1,5 +1,5 @@
 ![](https://raw.github.com/python-mode/python-mode/develop/logo.png)
-# vim-python-mode-indent
+# vim-pythonmodeindent
 
 The Vim plugin will improved your Python indentation (based on python-mode indent plugin).
 
@@ -14,7 +14,8 @@ Vim >= 7.3
 As of Vim 8 there is an officially supported way of adding plugins. See `:tab
 help packages` in vim for details.
 
-    cd ~/.vim/pack/python-mode-indent/start
+    mkdir -p ~/.vim/pack/jamescherti/start
+    cd ~/.vim/pack/jamescherti/start
     git clone https://github.com/jamescherti/vim-pythonmodeindent.git
     cd vim-pythonmodeindent
 
