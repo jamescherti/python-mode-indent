@@ -1,0 +1,30 @@
+*pythonmodeindent.txt*     For Vim Version 8.0
+
+     ____  _  _  ____  _   _  _____  _  _     __  __  _____  ____  ____      ~
+    (  _ \( \/ )(_  _)( )_( )(  _  )( \( )___(  \/  )(  _  )(  _ \( ___)     ~
+     )___/ \  /   )(   ) _ (  )(_)(  )  ((___))    (  )(_)(  )(_) ))__)      ~
+    (__)   (__)  (__) (_) (_)(_____)(_)\_)   (_/\/\_)(_____)(____/(____)     ~
+                             PYTHONMODEINDENT
+
+
+===============================================================================
+CONTENTS                                             *pythonmodeindent-contents*
+
+1. Common functionality................................|pythonmodeindent-common|
+    1.1 Python indentation.............................|pythonmodeindent-indent|
+
+===============================================================================
+1. Common functionality ~
+                                                       *pythonmodeindent-common*
+
+-------------------------------------------------------------------------------
+1.1 Python indentation ~
+                                                       *pythonmodeindent-indent*
+
+                                     *'g:pythonmodeindent_indent_hanging_width'*
+
+Customize hanging indent size different than &shiftwidth.
+
+>
+    let g:pythonmodeindent_indent_hanging_width = &shiftwidth
+    let g:pythonmodeindent_indent_hanging_width = 4
