@@ -24,8 +24,10 @@ function! python_mode_indent#get_indent(lnum)
             if closing_paren
                 return indent(parlnum)
             else
-                let l:indent_width = (g:pymode_indent_hanging_width > 0 ?
-                            \ g:pymode_indent_hanging_width : &shiftwidth)
+                let l:indent_width = get(g:, 'pymode_indent_hanging_width', -1)
+                if l:indent_width <= 0
+                  let l:indent_width = &shiftwidth
+                endif
                 return indent(parlnum) + l:indent_width
             endif
         else
