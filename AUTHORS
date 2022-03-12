@@ -1,13 +1,11 @@
-Author:
+vim-pythonmodeindent authors:
 
 * Kirill Klenov <horneds@gmail.com>
+* Daniel Hahler (http://github.com/blueyed);
+* James Cherti (https://github.com/jamescherti);
 
-Maintainers:
-
+Other contributors (python-mode):
 * Diego Rabatone Oliveira (https://github.com/diraol);
-
-Contributors:
-
 * Alvin Francis (http://github.com/alvinfrancis);
 * Amir Eldor (https://github.com/amireldor);
 * Andriy Kohut (https://github.com/andriykohut);
@@ -22,7 +20,6 @@ Contributors:
 * Brad Mease (http://github.com/bmease);
 * Brendan Maguire (https://github.com/brendanmaguire);
 * Bryce Guinta (https://github.com/brycepg);
-* Daniel Hahler (http://github.com/blueyed);
 * David Vogt (http://github.com/winged);
 * Denis Kasak (http://github.com/dkasak);
 * Dimitrios Semitsoglou-Tsiapos (https://github.com/dset0x);
@@ -76,4 +73,3 @@ Contributors:
 * Xiangyu Xu (https://github.com/bkbncn);
 * Zach Himsel (https://github.com/zhimsel);
 * Nathan Pemberton (https://github.com/NathanTP);
-* James Cherti (https://github.com/jamescherti);
