@@ -7,7 +7,7 @@
 " License:          Public Domain
 
 
-function! pymode#indent#get_indent(lnum)
+function! python_mode_indent#get_indent(lnum)
 
     " First line has indent 0
     if a:lnum == 1
