@@ -1,4 +1,4 @@
-![](https://raw.github.com/python-mode/python-mode/develop/logo.png)
+![](https://raw.github.com/jamescherti/vim-pythonmodeindent/pythonmodeindent/logo.png)
 # vim-pythonmodeindent
 
 The Vim plugin will improved your Python indentation (based on python-mode indent plugin).
